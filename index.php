@@ -31,7 +31,7 @@
                     <a class="nav-link" href="index.html">
                         <i class="fa fa-plane"></i>
                         <span class="nav-link-text">TYPE TRANSPORTASION</span>
-                    </a> 
+                    </a>
                 </li>
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
                     <a class="nav-link" href="index.html">
@@ -51,10 +51,17 @@
                         <span class="nav-link-text">TICKET</span>
                     </a>
                 </li>
-                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
                     <a class="nav-link" href="index.html">
                         <i class="fa fa-tag"></i>
                         <span class="nav-link-text">BOOKING CHECK</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="navbar-nav sidenav-toggler">
+                <li class="nav-item">
+                    <a class="nav-link text-center" id="sidenavToggler">
+                        <i class="fa fa-star"></i>
                     </a>
                 </li>
             </ul>
