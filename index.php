@@ -33,6 +33,12 @@
                         <span class="nav-link-text">TYPE TRANSPORTASION</span>
                     </a>
                 </li>
+                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+                    <a class="nav-link" href="index.html">
+                        <i class="fa fa-bed"></i>
+                        <span class="nav-link-text">HOTEL</span>
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
