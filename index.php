@@ -45,6 +45,12 @@
                         <span class="nav-link-text">BOOKING</span>
                     </a>
                 </li>
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+                    <a class="nav-link" href="index.html">
+                        <i class="fa fa-ticket"></i>
+                        <span class="nav-link-text">TICKET</span>
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
