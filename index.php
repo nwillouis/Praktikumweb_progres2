@@ -12,7 +12,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-        <a class="navbar-brand" href="index.html">TRAVEL</a>
+        <a class="navbar-brand" href="index.html"><img src="img/logo.jpg"></a>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
@@ -24,7 +24,6 @@
             </ul>
         </div>
     </nav>
-
 </body>
 
 </html>
