@@ -31,12 +31,18 @@
                     <a class="nav-link" href="index.html">
                         <i class="fa fa-plane"></i>
                         <span class="nav-link-text">TYPE TRANSPORTASION</span>
-                    </a>
+                    </a> 
                 </li>
-                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
                     <a class="nav-link" href="index.html">
                         <i class="fa fa-bed"></i>
                         <span class="nav-link-text">HOTEL</span>
+                    </a>
+                </li>
+                <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+                    <a class="nav-link" href="index.html">
+                        <i class="fa fa-handshake-o"></i>
+                        <span class="nav-link-text">BOOKING</span>
                     </a>
                 </li>
             </ul>
