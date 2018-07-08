@@ -21,6 +21,12 @@
                         <span class="nav-link-text">BERANDA</span>
                     </a>
                 </li>
+                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Dashboard">
+                    <a class="nav-link" href="index.html">
+                        <i class="fa fa-globe"></i>
+                        <span class="nav-link-text">DESTINATION</span>
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
