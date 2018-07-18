@@ -31,10 +31,10 @@
               <input type="text" class="form-control" name="destination" placeholder="Destination">
             </div> 
             <div class="form-group">
-              <input type="text" class="form-control" name="transportasi" placeholder="TRANSPORTASI">
+              <input type="text" class="form-control" name="transportasi" placeholder="Transportasi">
             </div> 
             <div class="form-group">
-              <input type="text" class="form-control" name="hotel" placeholder="HOTEL">
+              <input type="text" class="form-control" name="hotel" placeholder="Hotel">
             </div> 
             
             <div class="form-group">
