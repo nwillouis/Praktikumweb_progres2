@@ -17,24 +17,24 @@
      <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <form action="config/input.php" method="post">
+          <form action="input.php" method="post">
             <div class="form-group">
-              <input type="text" class="form-control" name="nama Pemesan" placeholder="Nama Pemesan">
+              <input type="text" class="form-control" name="NamaPemesan" placeholder="Nama Pemesan">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="nama Pemesan" placeholder="Alamat Pemesan">
+              <input type="text" class="form-control" name="AlamatPemesan" placeholder="Alamat Pemesan">
             </div> 
             <div class="form-group">
-              <input type="number" min="0" max="99999999" class="form-control" name="notelp" placeholder="Notelp Pemesan">
+              <input type="number" min="0" max="99999999" class="form-control" name="NotelpPemesan" placeholder="Notelp Pemesan">
             </div>
            <div class="form-group">
-              <input type="text" class="form-control" name="destination" placeholder="Destination">
+              <input type="text" class="form-control" name="Destination" placeholder="Destination">
             </div> 
             <div class="form-group">
-              <input type="text" class="form-control" name="transportasi" placeholder="Transportasi">
+              <input type="text" class="form-control" name="Transportation" placeholder="Transportasi">
             </div> 
             <div class="form-group">
-              <input type="text" class="form-control" name="hotel" placeholder="Hotel">
+              <input type="text" class="form-control" name="Hotel" placeholder="Hotel">
             </div> 
             
             <div class="form-group">
