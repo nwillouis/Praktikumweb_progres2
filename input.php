@@ -8,7 +8,7 @@
   $Transportation=$_POST['Transportation'];
   $Hotel=$_POST['Hotel'];
 
-  if ($NamaPemesan==null || $AlamatPemesan==null || $NotelpPemesan==null || $Destination==null || $Transportation==null || $Hotel==null) {
+  if ($NamaPemesan==null && $AlamatPemesan==null && $NotelpPemesan==null && $Destination==null && $Transportation==null && $Hotel==null) {
     echo "<script>alert('silahkan lengkapi data');window.location='tambahdata.php'</script>";
   }else {
     $con= mysqli_query($koneksi, "INSERT INTO data_pemesan (NamaPemesan, AlamatPemesan, NotelpPemesan, Destination, Transportation, Hotel)

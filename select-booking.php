@@ -29,13 +29,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="BERANDA">
-                    <a class="nav-link" href="index.html">
+                    <a class="nav-link" href="index.php">
                         <i class="fa fa-home"></i>
                         <span class="nav-link-text">BERANDA</span>
                     </a>
                 </li>
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="DESTINATION">
-                    <a class="nav-link" href="index.html">
+                    <a class="nav-link" href="Destination.php">
                         <i class="fa fa-globe"></i>
                         <span class="nav-link-text">DESTINATION</span>
                     </a>
@@ -65,7 +65,7 @@
                     </a>
                 </li>
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="BOOKING CHECK">
-                    <a class="nav-link" href="select-booking.php">
+                    <a class="nav-link" href="index.html">
                         <i class="fa fa-tag"></i>
                         <span class="nav-link-text">BOOKING CHECK</span>
                     </a>
@@ -80,6 +80,58 @@
             </ul>
         </div>
     </nav>
+    <div class="content-wrapper">
+    <div class="container-fluid">
+      <!-- Breadcrumbs-->
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+          <a href="#">Dashboard</a>
+        </li>
+        <li class="breadcrumb-item active">My Dashboard</li>
+      </ol>
+      
+      <!-- Card Columns Example Social Feed-->
+          <div class="mb-0 mt-4">
+              <hr class="my-0">
+              <?php
+  require 'koneksi.php';
+
+  $que = mysqli_query($koneksi, "SELECT * FROM data_pemesan");
+
+  if ($que) {
+    echo '<div class="table-responsive">';
+    echo '<table class="table table-hover">';
+    echo '<thead>';
+    echo '<tr>';
+    echo '<td>'."ID PEMESAN".'</td>';
+    echo '<td>'."NAMA PEMESAN".'</td>';
+    echo '<td>'."ALAMAT PEMESAN".'</td>';
+    echo '<td>'."NO. TELP. PEMESAN".'</td>';
+    echo '<td>'."DESTINATION".'</td>';
+    echo '<td>'."TRANSPORTATION".'</td>';
+    echo '<td>'."HOTEL".'</td>';
+    echo '</tr>';
+    echo '<thead>';
+    while ($row = mysqli_fetch_assoc($que)) {
+      echo '<tbody>';
+      echo '<tr>';
+      echo '<td>'.$row["id_pemesan"].'</td>';
+      echo '<td>'.$row["NamaPemesan"].'</td>';
+      echo '<td>'.$row["AlamatPemesan"].'</td>';
+      echo '<td>'.$row["NotelpPemesan"].'</td>';
+      echo '<td>'.$row["Destination"].'</td>';
+      echo '<td>'.$row["Transportation"].'</td>';
+      echo '<td>'.$row["Hotel"].'</td>';
+      echo '</tr>';
+      echo '</tbody>';
+    }
+    echo '</table>';
+    echo '</div>';
+    }
+  
+?>
+            </div>
+          </div>
 </body>
 
 </html>
