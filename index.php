@@ -29,13 +29,13 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="BERANDA">
-                    <a class="nav-link" href="index.php">
+                    <a class="nav-link" href="index.html">
                         <i class="fa fa-home"></i>
                         <span class="nav-link-text">BERANDA</span>
                     </a>
                 </li>
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="DESTINATION">
-                    <a class="nav-link" href="Destination.php">
+                    <a class="nav-link" href="index.html">
                         <i class="fa fa-globe"></i>
                         <span class="nav-link-text">DESTINATION</span>
                     </a>
@@ -169,4 +169,5 @@ chart.render();
 <div id="chartContainer" style="height: 370px; width: 100%;"></div>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"> </script>
 </body>
+
 </html>
