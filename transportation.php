@@ -4,6 +4,11 @@
 <head>
     <title>TRAVEL</title>
 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <link href="bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="bootstrap/datatables/dataTables.bootstrap4.css" rel="stylesheet">
@@ -22,7 +27,7 @@
                         <i class="fa fa-search"></i>
                     </button>
                 </span>
-                <a style="margin-left: 400px;" href="tambahdata.php"><button type="button" name="button" class="btn btn-primary">Tambah Data Pemesanan</button></a>
+                  <a style="margin-left: 400px;" href="tambahdata.php"><button type="button" name="button" class="btn btn-primary">Tambah Data Pemesanan</button></a>
             </div>
         </form>
 
@@ -47,13 +52,13 @@
                     </a>
                 </li>
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="HOTEL">
-                    <a class="nav-link" href="index.html">
+                    <a class="nav-link" href="#">
                         <i class="fa fa-bed"></i>
                         <span class="nav-link-text">HOTEL</span>
                     </a>
                 </li>
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="BOOKING">
-                    <a class="nav-link" href="index.html">
+                    <a class="nav-link" href="#">
                         <i class="fa fa-handshake-o"></i>
                         <span class="nav-link-text">BOOKING</span>
                     </a>
@@ -83,91 +88,72 @@
     <div class="content-wrapper">
     <div class="container-fluid">
       <!-- Breadcrumbs-->
-      <ul class="breadcrumb">
+      <ol class="breadcrumb">
         <li class="breadcrumb-item">
           <a href="#">Dashboard</a>
         </li>
         <li class="breadcrumb-item active">My Dashboard</li>
-      </ul>
-      <!-- Icon Cards-->
-      <div class="col-lg-9">
+      </ol>
+      
+      <!-- Card Columns Example Social Feed-->
+        <div class="container">
 
-          <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
-            <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-                <img src="img/bgpantai.jpg" width="1000" height="500">
-              </div>
-            </div>
-            </div>
-          </div>
+      <!-- Page Heading -->
+      <h3 class="my-4">Type
+        <small>Transportation</small>
+      </h3>
 
       <div class="row">
-        <div class="col-xl-3 col-sm-6 mb-3">
-          <div class="card text-white bg-primary o-hidden h-100">
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="img/pesawat.jpg" alt=""></a>
             <div class="card-body">
-              <div class="card-body-icon">
-              </div>
-              <center><img src="img/carlton.png" alt="Flowers in Chania" width="100" height="60"></center>
+              <h4 class="card-title">
+                <a href="#">Pesawat</a>
+              </h4>
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-sm-6 mb-3">
-          <div class="card text-white bg-warning o-hidden h-100">
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="img/kapal.jpg" alt=""></a>
             <div class="card-body">
-              <div class="card-body-icon">
-              </div>
-              <center><img src="img/curtis.png" alt="Flowers in Chania" width="100" height="60"></center>
+              <h4 class="card-title">
+                <a href="#">Kapal</a>
+              </h4>
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-sm-6 mb-3">
-          <div class="card text-white bg-success o-hidden h-100">
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="img/kereta.jpg" alt=""></a>
             <div class="card-body">
-              <div class="card-body-icon">
-              </div>
-               <center><img src="img/four.png" alt="Flowers in Chania" width="100" height="60"></center>
+              <h4 class="card-title">
+                <a href="#">Kereta</a>
+              </h4>
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-sm-6 mb-3">
-          <div class="card text-white bg-danger o-hidden h-100">
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="img/bus.jpg" alt=""></a>
             <div class="card-body">
-              <div class="card-body-icon">
-              </div>
-              <center><img src="img/W.png" alt="Flowers in Chania" width="100" height="60"></center>
+              <h4 class="card-title">
+                <a href="#">Bus</a>
+              </h4>
             </div>
           </div>
         </div>
-      </div>
-      <script type="text/javascript">
-window.onload = function () {
-
-var chart = new CanvasJS.Chart("chartContainer", {
-    theme: "light1", // "light2", "dark1", "dark2"
-    animationEnabled: false, // change to true      
-    title:{
-        text: "Best Destination"
-    },
-    data: [
-    {
-        // Change type to "bar", "area", "spline", "pie",etc.
-        type: "column",
-        dataPoints: [
-            { label: "Rinjani",  y: 10  },
-            { label: "Bromo", y: 15  },
-            { label: "Labuan Bajo", y: 25  },
-            { label: "Raja Ampat",  y: 30  },
-            { label: "Semeru",  y: 28  }
-        ]
-    }
-    ]
-});
-chart.render();
-
-}
-</script>
-<div id="chartContainer" style="height: 370px; width: 100%;"></div>
-<script src="https://canvasjs.com/assets/script/canvasjs.min.js"> </script>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="img/ELF.jpg" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">ELF</a>
+              </h4>
+            </div>
+          </div>
+        </div>
 </body>
 
 </html>
