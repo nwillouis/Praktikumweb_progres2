@@ -88,7 +88,12 @@
         </li>
         <li class="breadcrumb-item active">My Dashboard</li>
       </ul>
+    
       <!-- Icon Cards-->
+      <div class="container">
+        
+       <i class="fa fa-home"></i> Beranda</div>
+      <hr class="mt-2">
       <div class="col-lg-9">
 
           <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">

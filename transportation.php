@@ -98,9 +98,8 @@
         <div class="container">
 
       <!-- Page Heading -->
-      <h3 class="my-4">Type
-        <small>Transportation</small>
-      </h3>
+      <i class="fa fa-plane"></i> Type Transportasion </div>
+      <hr class="mt-2">
 
       <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">

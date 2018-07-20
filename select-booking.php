@@ -90,13 +90,15 @@
       </ol>
       
       <!-- Card Columns Example Social Feed-->
-          <div class="mb-0 mt-4">
-              <hr class="my-0">
-
+      <div class="container">
+        
+             <i class="fa fa-tag"></i>Booking Check</div>
+                <hr class="mt-2">
               <form action="reset.php" method="post">
                   <a href="tambahdata.php"><button type="button" name="button" class="btn btn-primary">Tambah Data Pemesanan</button></a>
                   <input type="submit" name="submit" class="btn btn-danger" value="Reset">
                 </form> 
+          </div>
               <?php
   require 'koneksi.php';
 

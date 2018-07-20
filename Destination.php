@@ -91,7 +91,7 @@
       
       <!-- Card Columns Example Social Feed-->
           <div class="mb-0 mt-4">
-            <i class="fa fa-newspaper-o"></i> Best Destination </div>
+            <i class="fa fa-globe"></i> Best Destination </div>
           <hr class="mt-2">
           <div class="card-columns">
             <!-- Example Social Card-->
