@@ -27,7 +27,6 @@
                         <i class="fa fa-search"></i>
                     </button>
                 </span>
-                  <a style="margin-left: 400px;" href="tambahdata.php"><button type="button" name="button" class="btn btn-primary">Tambah Data Pemesanan</button></a>
             </div>
         </form>
 
