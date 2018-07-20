@@ -13,6 +13,6 @@
   }else {
     $con= mysqli_query($koneksi, "INSERT INTO data_pemesan (NamaPemesan, AlamatPemesan, NotelpPemesan, Destination, Transportation, Hotel)
     values ('$NamaPemesan', '$AlamatPemesan', '$NotelpPemesan','$Destination', '$Transportation', '$Hotel')");
-    echo "<script>alert('terima kasih, data berhasil di masukkan');window.location='index.php'</script>";
+    echo "<script>alert('terima kasih, data berhasil di masukkan');window.location='select-booking.php'</script>";
   }
  ?>
