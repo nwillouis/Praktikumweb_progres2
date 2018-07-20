@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
@@ -23,7 +22,6 @@
                         <i class="fa fa-search"></i>
                     </button>
                 </span>
-                <a style="margin-left: 400px;" href="tambahdata.php"><button type="button" name="button" class="btn btn-primary">Tambah Data Pemesanan</button></a>
             </div>
         </form>
 
@@ -94,10 +92,17 @@
       <!-- Card Columns Example Social Feed-->
           <div class="mb-0 mt-4">
               <hr class="my-0">
+
+              <form action="reset.php" method="post">
+                  <a href="tambahdata.php"><button type="button" name="button" class="btn btn-primary">Tambah Data Pemesanan</button></a>
+                  <input type="submit" name="submit" class="btn btn-danger" value="Reset">
+                </form> 
               <?php
   require 'koneksi.php';
 
   $que = mysqli_query($koneksi, "SELECT * FROM data_pemesan");
+
+
 
   if ($que) {
     echo '<div class="table-responsive">';
@@ -107,7 +112,7 @@
     echo '<td>'."ID PEMESAN".'</td>';
     echo '<td>'."NAMA PEMESAN".'</td>';
     echo '<td>'."ALAMAT PEMESAN".'</td>';
-    echo '<td>'."NO. TELP. PEMESAN".'</td>';
+    echo '<td>'."NO.TELP PEMESAN".'</td>';
     echo '<td>'."DESTINATION".'</td>';
     echo '<td>'."TRANSPORTATION".'</td>';
     echo '<td>'."HOTEL".'</td>';
@@ -134,4 +139,5 @@
             </div>
           </div>
 </body>
+
 </html>
