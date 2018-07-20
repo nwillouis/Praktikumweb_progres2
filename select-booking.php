@@ -80,66 +80,80 @@
         </div>
     </nav>
     <div class="content-wrapper">
-    <div class="container-fluid">
-      <!-- Breadcrumbs-->
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="#">Dashboard</a>
-        </li>
-        <li class="breadcrumb-item active">My Dashboard</li>
-      </ol>
-      
-      <!-- Card Columns Example Social Feed-->
-      <div class="container">
-        
-             <i class="fa fa-tag"></i>Booking Check</div>
-                <hr class="mt-2">
-              <form action="reset.php" method="post">
-                  <a href="tambahdata.php"><button type="button" name="button" class="btn btn-primary">Tambah Data Pemesanan</button></a>
-                  <input type="submit" name="submit" class="btn btn-danger" value="Reset">
-                </form> 
-          </div>
-              <?php
-  require 'koneksi.php';
+        <div class="container-fluid">
+            <!-- Breadcrumbs-->
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="#">Dashboard</a>
+                </li>
+                <li class="breadcrumb-item active">My Dashboard</li>
+            </ol>
 
-  $que = mysqli_query($koneksi, "SELECT * FROM data_pemesan");
+            <!-- Card Columns Example Social Feed-->
+            <div class="container">
+
+                <i class="fa fa-tag"></i>Booking Check</div>
+            <hr class="mt-2">
+            <form action="reset.php" method="post">
+                <a href="tambahdata.php"><button type="button" name="button" class="btn btn-primary">Tambah Data Pemesanan</button></a>
+                <input type="submit" name="submit" class="btn btn-danger" value="Reset">
+            </form>
+        </div>
 
 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <tr>
+                                <td>id pemesan</td>
+                                <td>nama pemesan</td>
+                                <td>alamat pemesan</td>
+                                <td>no telp</td>
+                                <td>destination</td>
+                                <td>transportasion</td>
+                                <td>hotel</td>
+                                <td colspan="2">Aksi</td>
+                            </tr>
+                            <?php
 
-  if ($que) {
-    echo '<div class="table-responsive">';
-    echo '<table class="table table-hover">';
-    echo '<thead>';
-    echo '<tr>';
-    echo '<td>'."ID PEMESAN".'</td>';
-    echo '<td>'."NAMA PEMESAN".'</td>';
-    echo '<td>'."ALAMAT PEMESAN".'</td>';
-    echo '<td>'."NO.TELP PEMESAN".'</td>';
-    echo '<td>'."DESTINATION".'</td>';
-    echo '<td>'."TRANSPORTATION".'</td>';
-    echo '<td>'."HOTEL".'</td>';
-    echo '</tr>';
-    echo '<thead>';
-    while ($row = mysqli_fetch_assoc($que)) {
-      echo '<tbody>';
-      echo '<tr>';
-      echo '<td>'.$row["id_pemesan"].'</td>';
-      echo '<td>'.$row["NamaPemesan"].'</td>';
-      echo '<td>'.$row["AlamatPemesan"].'</td>';
-      echo '<td>'.$row["NotelpPemesan"].'</td>';
-      echo '<td>'.$row["Destination"].'</td>';
-      echo '<td>'.$row["Transportation"].'</td>';
-      echo '<td>'.$row["Hotel"].'</td>';
-      echo '</tr>';
-      echo '</tbody>';
-    }
-    echo '</table>';
-    echo '</div>';
-    }
-  
-?>
+                  require_once 'koneksi.php';
+                  $con=mysqli_query($koneksi, "SELECT * FROM data_pemesan");
+                  while ($data =mysqli_fetch_array($con)) { 
+                  ?>
+
+                            <tr>
+                                <td>
+                                    <?php echo $data['id_pemesan'];?>
+                                </td>
+                                <td>
+                                    <?php echo $data['NamaPemesan'];?>
+                                </td>
+                                <td>
+                                    <?php echo $data['AlamatPemesan'];?>
+                                </td>
+                                <td>
+                                    <?php echo $data['NotelpPemesan'];?>
+                                </td>
+                                <td>
+                                    <?php echo $data['Destination'];?>
+                                </td>
+                                <td>
+                                    <?php echo $data['Transportation'];?>
+                                </td>
+                                <td>
+                                    <?php echo $data['Hotel'];?>
+                                </td>
+                                <td><a href="delete.php?d=<?php echo $data['id_pemesan']; ?>"><i class="fa fa-trash"></i></a>
+                            </tr>
+                            <?php } ?>
+                        </table>
+                    </div>
+                </div>
+
             </div>
-          </div>
+        </div>
 </body>
 
 </html>
