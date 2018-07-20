@@ -145,7 +145,8 @@
                                 <td>
                                     <?php echo $data['Hotel'];?>
                                 </td>
-                                <td><a href="delete.php?d=<?php echo $data['id_pemesan']; ?>"><i class="fa fa-trash"></i></a>
+                                <td><a href="delete.php?d=<?php echo $data['id_pemesan']; ?>"><i class="fa fa-trash"></i></a></td>
+                                <td><a href="edit.php?d=<?php echo $data['id_pemesan']; ?>"><i class="fa fa-pencil-square"></i></a></td>
                             </tr>
                             <?php } ?>
                         </table>
