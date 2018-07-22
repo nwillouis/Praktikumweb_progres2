@@ -40,7 +40,7 @@
                     </a>
                 </li>
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="TYPE TRANSPORTASION">
-                    <a class="nav-link" href="index.html">
+                    <a class="nav-link" href="transportation.php">
                         <i class="fa fa-plane"></i>
                         <span class="nav-link-text">TYPE TRANSPORTASION</span>
                     </a>
