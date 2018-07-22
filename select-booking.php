@@ -107,13 +107,13 @@
                     <div class="table-responsive">
                         <table class="table table-striped">
                             <tr>
-                                <td>id pemesan</td>
-                                <td>nama pemesan</td>
-                                <td>alamat pemesan</td>
-                                <td>no telp</td>
-                                <td>destination</td>
-                                <td>transportasion</td>
-                                <td>hotel</td>
+                                <td>ID Pemesan</td>
+                                <td>Nama Pemesan</td>
+                                <td>Alamat Pemesan</td>
+                                <td>No Telp</td>
+                                <td>Destination</td>
+                                <td>Transportasion</td>
+                                <td>Hotel</td>
                                 <td colspan="2">Aksi</td>
                             </tr>
                             <?php
