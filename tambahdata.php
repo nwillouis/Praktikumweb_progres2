@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>TAMBAH DATA PEMESANAN</title>
 
-     <link href="bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="bootstrap/datatables/dataTables.bootstrap4.css" rel="stylesheet">
     <link href="bootstrap/css/sb-admin.css" rel="stylesheet">
@@ -18,6 +18,9 @@
       <div class="row">
         <div class="col-md-12">
           <form action="input.php" method="post">
+            <div class="form-group">
+              <input type="text" class="form-control" name="id_pemesan" placeholder="Id pemesan">
+            </div>
             <div class="form-group">
               <input type="text" class="form-control" name="NamaPemesan" placeholder="Nama Pemesan">
             </div>
