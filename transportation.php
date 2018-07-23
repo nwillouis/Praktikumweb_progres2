@@ -51,7 +51,7 @@
                     </a>
                 </li>
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="HOTEL">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="hotel.php">
                         <i class="fa fa-bed"></i>
                         <span class="nav-link-text">HOTEL</span>
                     </a>
@@ -98,56 +98,56 @@
         <div class="container">
 
       <!-- Page Heading -->
-      <i class="fa fa-plane"></i> Type Transportasion </div>
+      <i class="fa fa-plane"></i> Type Transportation </div>
       <hr class="mt-2">
 
       <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="img/pesawat.jpg" alt=""></a>
+            <a href="#"><img class="card-img-top" src="img/pesawat.jpg" height="220"></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Pesawat</a>
+                <a href="https://www.garuda-indonesia.com/id/id/garuda-indonesia-experience/fleets/index.page?">Pesawat</a>
               </h4>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="img/kapal.jpg" alt=""></a>
+            <a href="#"><img class="card-img-top" src="img/kapal.jpg" height="220"></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Kapal</a>
+                <a href="https://www.yuktravel.com/paket-cruise">Kapal</a>
               </h4>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="img/kereta.jpg" alt=""></a>
+            <a href="#"><img class="card-img-top" src="img/kereta.jpg" height="220"></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Kereta</a>
+                <a href="https://kai.id/">Kereta</a>
               </h4>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="img/bus.jpg" alt=""></a>
+            <a href="#"><img class="card-img-top" src="img/bus.jpg" height="220"></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">Bus</a>
+                <a href="https://www.easybook.com/id-id">Bus</a>
               </h4>
             </div>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="img/ELF.jpg" alt=""></a>
+            <a href="#"><img class="card-img-top" src="img/ELF.jpg" height="220"></a>
             <div class="card-body">
               <h4 class="card-title">
-                <a href="#">ELF</a>
+                <a href="https://transporttourbandung.blogspot.com/2015/02/info-bandung-car-rental-rate-car-rental.html">ELF</a>
               </h4>
             </div>
           </div>
