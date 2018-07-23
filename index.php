@@ -46,7 +46,7 @@
                     </a>
                 </li>
                 <li class="nav-item" data-toggle="tooltip" data-placement="right" title="HOTEL">
-                    <a class="nav-link" href="index.html">
+                    <a class="nav-link" href="hotel.php">
                         <i class="fa fa-bed"></i>
                         <span class="nav-link-text">HOTEL</span>
                     </a>
@@ -94,7 +94,7 @@
         
        <i class="fa fa-home"></i> Beranda</div>
       <hr class="mt-2">
-      <div class="col-lg-9">
+      <div class="col-lg-9"></div>
 
           <div id="carouselExampleIndicators" class="carousel slide my-4" data-ride="carousel">
             <div class="carousel-inner" role="listbox">
@@ -103,7 +103,6 @@
               </div>
             </div>
             </div>
-          </div>
 
       <div class="row">
         <div class="col-xl-3 col-sm-6 mb-3">
