@@ -17,29 +17,28 @@
      <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <form action="input.php" method="post">
+          <form action="input.php" method="post" enctype="multipart/form-data">
             <div class="form-group">
-              <input type="text" class="form-control" name="id_pemesan" placeholder="Id pemesan">
+              <input type="text" class="form-control" name="NamaPemesan" placeholder="Nama Pemesan" required>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="NamaPemesan" placeholder="Nama Pemesan">
-            </div>
-            <div class="form-group">
-              <input type="text" class="form-control" name="AlamatPemesan" placeholder="Alamat Pemesan">
+              <input type="text" class="form-control" name="AlamatPemesan" placeholder="Alamat Pemesan" required>
             </div> 
             <div class="form-group">
-              <input type="number" min="0" max="99999999" class="form-control" name="NotelpPemesan" placeholder="Notelp Pemesan">
+              <input type="number" min="0" max="99999999" class="form-control" name="NotelpPemesan" placeholder="Notelp Pemesan" required>
             </div>
            <div class="form-group">
-              <input type="text" class="form-control" name="Destination" placeholder="Destination">
+              <input type="text" class="form-control" name="Destination" placeholder="Destination" required>
             </div> 
             <div class="form-group">
-              <input type="text" class="form-control" name="Transportation" placeholder="Transportasi">
+              <input type="text" class="form-control" name="Transportation" placeholder="Transportasi" required>
             </div> 
             <div class="form-group">
-              <input type="text" class="form-control" name="Hotel" placeholder="Hotel">
-            </div> 
-            
+              <input type="text" class="form-control" name="Hotel" placeholder="Hotel" required>
+            </div>
+            <div class="form-group">
+              <input type="file" name="photo" accept="image/*" required />
+            </div>  
             <div class="form-group">
               <input type="submit" name="submit" value="Simpan" class="btn btn-success">
             </div>

@@ -8,12 +8,16 @@
   $Destination=$_POST['Destination'];
   $Transportation=$_POST['Transportation'];
   $Hotel=$_POST['Hotel'];
+  $photo  = $_FILES['photo']['name'];
+  $targetfolder = "img/".basename($photo);
 
-  if ( $id_pemesan==null || $NamaPemesan==null || $AlamatPemesan==null || $NotelpPemesan==null || $Destination==null || $Transportation==null || $Hotel==null) {
+  if (  $NamaPemesan==null || $AlamatPemesan==null || $NotelpPemesan==null || $Destination==null || $Transportation==null || $Hotel==null) {
     echo "<script>alert('silahkan lengkapi data');window.location='tambahdata.php'</script>";
   }else {
-    $con= mysqli_query($koneksi, "INSERT INTO data_pemesan (id_pemesan, NamaPemesan, AlamatPemesan, NotelpPemesan, Destination, Transportation, Hotel)
-    values ('$id_pemesan', '$NamaPemesan', '$AlamatPemesan', '$NotelpPemesan','$Destination', '$Transportation', '$Hotel')");
+    $con= mysqli_query($koneksi, "INSERT INTO data_pemesan (NamaPemesan, AlamatPemesan, NotelpPemesan, Destination, Transportation, Hotel, photo)
+    values ('$NamaPemesan', '$AlamatPemesan', '$NotelpPemesan','$Destination', '$Transportation', '$Hotel' ,'$photo')");
+    if ($con && move_uploaded_file($_FILES['photo']['tmp_name'], $targetfolder)) {
     echo "<script>alert('terima kasih, data berhasil di masukkan');window.location='select-booking.php'</script>";
+      }   
   }
  ?>
