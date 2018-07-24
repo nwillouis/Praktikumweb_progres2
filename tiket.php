@@ -201,5 +201,46 @@ Jalan-jalan dan seru-seruan bareng teman terdekat jadi makin hemat.
               <div class="card-footer small text-muted"><a href="https://www.tiket.com/promo/promo-kereta-api"><button  type="button" class="btn btn-primary btn-lg btn-block">Detail Promo</button></a></div>
             </div>
           </div>
+
+      <div class="row">
+        <div class="col-xl-3 col-sm-6 mb-3">
+          <div class="card text-white o-hidden h-100">
+            <div class="card-body">
+              <div class="card-body-icon">
+              </div>
+              <center><img src="citilink.png" alt="citilink" width="100" height="60"></center>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 mb-3">
+          <div class="card text-white o-hidden h-100">
+            <div class="card-body">
+              <div class="card-body-icon">
+              </div>
+              <center><img src="lionair.png" alt="lion air" width="100" height="60"></center>
+            </div>
+          </div>
+        </div> 
+        <div class="col-xl-3 col-sm-6 mb-3">
+          <div class="card text-white o-hidden h-100">
+            <div class="card-body">
+              <div class="card-body-icon">
+              </div>
+               <center><img src="airasia.png" alt="air asia" width="100" height="60"></center>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-sm-6 mb-3">
+          <div class="card text-white o-hidden h-100">
+            <div class="card-body">
+              <div class="card-body-icon">
+              </div>
+              <center><img src="garuda.jpg" alt="garuda" width="100" height="60"></center>
+            </div>
+          </div>
+        </div>
+      </div>
+
+          
 </body>
 </html>
