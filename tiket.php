@@ -241,6 +241,7 @@ Jalan-jalan dan seru-seruan bareng teman terdekat jadi makin hemat.
         </div>
       </div>
 
+</div>
           
 </body>
 </html>
