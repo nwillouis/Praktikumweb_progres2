@@ -117,7 +117,7 @@ Bagi kamu pemilik kartu kredit BCA, HSBC, OCBC NISP, Permata Bank, Standard Char
                
                 </div>
               <hr class="my-0">
-              <div class="card-footer small text-muted"> <button  type="button" class="btn btn-primary btn-lg btn-block">Detail Promo</button></div>
+              <div class="card-footer small text-muted"> <a href="https://www.tiket.com/promo/promo-pesawat"><button  type="button" class="btn btn-primary btn-lg btn-block">Detail Promo</button></a></div>
             </div>
             <!-- Example Social Card-->
             <div class="card mb-3">
@@ -148,7 +148,7 @@ Bagi kamu pemilik kartu kredit BCA, HSBC, OCBC NISP, Permata Bank, Standard Char
                 
               </div>
               <hr class="my-0">
-              <div class="card-footer small text-muted"> <button  type="button" class="btn btn-primary btn-lg btn-block">Detail Promo</button></div>
+              <div class="card-footer small text-muted"><a href="https://www.tiket.com/promo/gajian-booking-hotel-murah"><button  type="button" class="btn btn-primary btn-lg btn-block">Detail Promo</button></a></div>
             </div>
             <!-- Example Social Card-->
             <div class="card mb-3">
@@ -174,7 +174,7 @@ Kurang apa lagi? Yuk ciptakan kebahagiaan bersama, ajak temanmu keliling dunia, 
                
               </div>
               <hr class="my-0">
-              <div class="card-footer small text-muted"> <button  type="button" class="btn btn-primary btn-lg btn-block">Detail Promo</button></div>
+              <div class="card-footer small text-muted"><a href="https://www.tiket.com/promo/promo-penerbangan-internasional"> <button  type="button" class="btn btn-primary btn-lg btn-block">Detail Promo</button></a></div>
             </div>
             <!-- Example Social Card-->
             <div class="card mb-3">
@@ -198,7 +198,7 @@ Jalan-jalan dan seru-seruan bareng teman terdekat jadi makin hemat.
                 
               </div>
               <hr class="my-0">
-              <div class="card-footer small text-muted"> <button  type="button" class="btn btn-primary btn-lg btn-block">Detail Promo</button></div>
+              <div class="card-footer small text-muted"><a href="https://www.tiket.com/promo/promo-kereta-api"><button  type="button" class="btn btn-primary btn-lg btn-block">Detail Promo</button></a></div>
             </div>
           </div>
 </body>
