@@ -6,6 +6,7 @@
     <link href="bootstrap/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="bootstrap/datatables/dataTables.bootstrap4.css" rel="stylesheet">
     <link href="bootstrap/css/sb-admin.css" rel="stylesheet">
+    
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
@@ -95,7 +96,7 @@
             <!-- Example Social Card-->
             <div class="card mb-3">
               <a href="#">
-                <img class="card-img-top img-fluid w-100" src="travelpromo.jpg" width="500" height="250">
+                <img class="card-img-top img-fluid w-100" src="pesawatpromo.PNG" width="500" height="250">
               </a>
               <div class="card-body">
                 <h6 class="card-title mb-1"><a href="#">Promo Pesawat Gajian </a></h6>
@@ -121,7 +122,7 @@ Bagi kamu pemilik kartu kredit BCA, HSBC, OCBC NISP, Permata Bank, Standard Char
             <!-- Example Social Card-->
             <div class="card mb-3">
               <a href="#">
-                <img class="card-img-top img-fluid w-100" src="travelpromo.jpg" width="500" height="250">
+                <img class="card-img-top img-fluid w-100" src="hotelpromo.PNG" width="500" height="250">
               </a>
               <div class="card-body">
                 <h6 class="card-title mb-1"><a href="#">Promo Gajian Hotel</a></h6>
@@ -152,7 +153,7 @@ Bagi kamu pemilik kartu kredit BCA, HSBC, OCBC NISP, Permata Bank, Standard Char
             <!-- Example Social Card-->
             <div class="card mb-3">
               <a href="#">
-                <img class="card-img-top img-fluid w-100" src="travelpromo.jpg" width="500" height="200">
+                <img class="card-img-top img-fluid w-100" src="liburanpromo.PNG" width="500" height="200">
               </a>
               <div class="card-body">
                 <h6 class="card-title mb-1"><a href="#">Promo Liburan Ke Luar Negeri</a></h6>
@@ -178,7 +179,7 @@ Kurang apa lagi? Yuk ciptakan kebahagiaan bersama, ajak temanmu keliling dunia, 
             <!-- Example Social Card-->
             <div class="card mb-3">
               <a href="#">
-                <img class="card-img-top img-fluid w-100" src="travelpromo.jpg" width="500" height="250">
+                <img class="card-img-top img-fluid w-100" src="keretapromo.PNG" width="500" height="250">
               </a>
               <div class="card-body">
                 <h6 class="card-title mb-1"><a href="#">Promo Kereta Liburan</a></h6>
